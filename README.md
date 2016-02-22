@@ -4,10 +4,21 @@ The aim of the project is to extract structured information from unstructured te
 
 
 ##Requirements
+1. [NLTK](http://www.nltk.org/)
+2. [Zemberek] (http://extensions.libreoffice.org/extension-center/zemberek-turkce-yazim-denetleyicisi)
+3. [Keyphrase Extraction Algorithm] (http://www.nzdl.org/Kea/)
 
 
 ##Run
-
+`python`
 
 
 ##Project Development Steps
+
+* Sentence Segmentation
+* Tokenization
+* Tagging Sentence
+* Entity Detection
+* Relation Detection
+* Test results
+
