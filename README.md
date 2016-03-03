@@ -1,24 +1,24 @@
+
 # Extracting Information from Textual Documents
 The aim of the project is to extract structured information from unstructured text. It is about to give more information some parts of the text.
 
 
-
 ##Requirements
-1. [NLTK](http://www.nltk.org/)
-2. [Zemberek] (http://extensions.libreoffice.org/extension-center/zemberek-turkce-yazim-denetleyicisi)
-3. [Keyphrase Extraction Algorithm] (http://www.nzdl.org/Kea/)
+1. [DbPedia](http://wiki.dbpedia.org//)
+2. [C#] (https://msdn.microsoft.com/tr-tr/library/67ef8sbd.aspx)
+3. [Solr] (http://lucene.apache.org/solr/)
 
 
 ##Run
-`python`
+`Solr`
 
 
 ##Project Development Steps
 
-* Sentence Segmentation
-* Tokenization
-* Tagging Sentence
-* Entity Detection
-* Relation Detection
-* Test results
+* Download Data from DbPedia :white_check_mark:
+* Normalize Data :white_check_mark:
+* Input Training Data 
+* Training Process
+* Input Testing Data 
+* Testing Data
 
