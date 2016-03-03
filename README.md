@@ -2,6 +2,7 @@
 # Extracting Information from Textual Documents
 The aim of the project is to extract structured information from unstructured text. It is about to give more information some parts of the text.
 
+![Expected Result] (https://github.com/meltemm/information-extraction-text-enrichment/blob/master/Untitled.png)
 
 ##Requirements
 1. [DbPedia](http://wiki.dbpedia.org//)
