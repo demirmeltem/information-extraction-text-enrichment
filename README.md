@@ -6,20 +6,15 @@ The aim of the project is to extract structured information from unstructured te
 
 ##Requirements
 1. [DbPedia](http://wiki.dbpedia.org//)
-2. [C#] (https://msdn.microsoft.com/tr-tr/library/67ef8sbd.aspx)
-3. [Solr] (http://lucene.apache.org/solr/)
-
-
-##Run
-`Solr`
+2. [ElasticSearch Percolator] (https://www.elastic.co/guide/en/elasticsearch/reference/current/search-percolate.html)
+3. [C#] (https://msdn.microsoft.com/tr-tr/library/67ef8sbd.aspx)
 
 
 ##Project Development Steps
 
 * Download Data from DbPedia :white_check_mark:
 * Normalize Data :white_check_mark:
-* Input Training Data 
-* Training Process
-* Input Testing Data 
-* Testing Data
+* Practice on Tool 
+* Input Training Data / Training Process
+* Input Testing Data /  Testing Data
 
