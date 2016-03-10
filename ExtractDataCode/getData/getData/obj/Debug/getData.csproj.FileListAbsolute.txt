@@ -1,0 +1,17 @@
+c:\users\meltem\documents\visual studio 2013\Projects\getData\getData\bin\Debug\getData.exe.config
+c:\users\meltem\documents\visual studio 2013\Projects\getData\getData\bin\Debug\getData.exe
+c:\users\meltem\documents\visual studio 2013\Projects\getData\getData\bin\Debug\getData.pdb
+c:\users\meltem\documents\visual studio 2013\Projects\getData\getData\obj\Debug\getData.Form1.resources
+c:\users\meltem\documents\visual studio 2013\Projects\getData\getData\obj\Debug\getData.Properties.Resources.resources
+c:\users\meltem\documents\visual studio 2013\Projects\getData\getData\obj\Debug\getData.csproj.GenerateResource.Cache
+c:\users\meltem\documents\visual studio 2013\Projects\getData\getData\obj\Debug\getData.exe
+c:\users\meltem\documents\visual studio 2013\Projects\getData\getData\obj\Debug\getData.pdb
+C:\Users\Meltem DEMIR\Documents\Visual Studio 2012\Projects\getData\getData\bin\Debug\getData.exe.config
+C:\Users\Meltem DEMIR\Documents\Visual Studio 2012\Projects\getData\getData\obj\Debug\getData.exe
+C:\Users\Meltem DEMIR\Documents\Visual Studio 2012\Projects\getData\getData\obj\Debug\getData.pdb
+C:\Users\Meltem DEMIR\Documents\Visual Studio 2012\Projects\getData\getData\bin\Debug\getData.exe
+C:\Users\Meltem DEMIR\Documents\Visual Studio 2012\Projects\getData\getData\bin\Debug\getData.pdb
+C:\Users\Meltem DEMIR\Documents\Visual Studio 2012\Projects\getData\getData\obj\Debug\getData.csprojResolveAssemblyReference.cache
+C:\Users\Meltem DEMIR\Documents\Visual Studio 2012\Projects\getData\getData\obj\Debug\getData.Form1.resources
+C:\Users\Meltem DEMIR\Documents\Visual Studio 2012\Projects\getData\getData\obj\Debug\getData.Properties.Resources.resources
+C:\Users\Meltem DEMIR\Documents\Visual Studio 2012\Projects\getData\getData\obj\Debug\getData.csproj.GenerateResource.Cache
