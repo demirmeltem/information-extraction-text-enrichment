@@ -78,7 +78,7 @@ This allows you to see how each match is highlighting the document being percola
 	
 ***ADDING A QUERY TO THE PERCOLATOR:***
 
-  QUERY 1:
+  **QUERY 1:**
 
 	PUT - localhost:9200/my-index/.percolator/1
 	
@@ -90,9 +90,8 @@ This allows you to see how each match is highlighting the document being percola
 		} 
 	}
 
---------------------------------------------------------------------
    
-   QUERY 2:
+   **QUERY 2:**
    
 	PUT - localhost:9200/my-index/.percolator/2
 	
