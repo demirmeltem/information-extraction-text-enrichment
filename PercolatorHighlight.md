@@ -20,7 +20,9 @@ Or, you can use console but if you are using Windows, you need to download [cURL
 	  Click Composer on Fiddler.
 	  Choose PUT, enter this address "localhost:9200/my-index/.percolator/1"
 	  Request Body:  
-	  
+	 
+    PUT - localhost:9200/my-index/.percolator/1
+	
 	{
 		"query" : {
 			"match" : {
