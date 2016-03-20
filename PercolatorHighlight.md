@@ -21,7 +21,7 @@ Or, you can use console but if you are using Windows, you need to download [cURL
 	* Choose PUT, enter this address "localhost:9200/my-index/.percolator/1"
 	
 	*Request Body:*  
-	 
+						 
 	
 	{
 		"query" : {
@@ -29,8 +29,8 @@ Or, you can use console but if you are using Windows, you need to download [cURL
             "message" : "bonsai tree"
 			}
 		}
-    }
-  	  
+    	}
+					  	  
 	  
 	Then Execute.			
 					
@@ -38,16 +38,18 @@ Or, you can use console but if you are using Windows, you need to download [cURL
 	  Choose GET, enter this address "localhost:9200/my-index/my-type/_percolate"
 	  Request Body:    
 
-    {
+					
+    	{
 		"doc" : {
 			"message" : "A new bonsai tree in the office"
 		}
 	}
-		
+
+							
 	Then Execute.
 						
 	*The given request will be like this : 
-
+					
 	{
 		"took" : 19,
 		"_shards" : {
@@ -63,7 +65,7 @@ Or, you can use console but if you are using Windows, you need to download [cURL
 				}
 		]
 	}					
-						
+											
 	-- It means, there is a one matching in the query. 
 
 
