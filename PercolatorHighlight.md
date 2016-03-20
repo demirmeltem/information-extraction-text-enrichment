@@ -17,54 +17,69 @@ Or, you can use console but if you are using Windows, you need to download [cURL
 - Third, we will apply one example from the official web page. I will apply according to the Fiddler Web Debugger.
 	* Click Composer on Fiddler.
 	  Choose PUT and give address "localhost:9200/my-index"
-	  Write request body this index:    {
-										  "mappings": {
-											"my-type": {
-											  "properties": {
-												"message": {
-												  "type": "string"
-												}
-											  }
-											}
-										  }
-										}								
-		Then Execute.								
+	  Write request body this index:    
+
+ 	{
+		"mappings": {
+			"my-type": {
+				 "properties": {
+					"message": {
+					 "type": "string"
+					}
+				  }
+			}
+		}
+	}
+										
+		
+	Then Execute.
+	
 	* Register a query in the percolator: 
 	  Choose PUT, enter this address "localhost:9200/my-index/.percolator/1"
-	  Request Body:  {
-						"query" : {
-							"match" : {
-								"message" : "bonsai tree"
-							}
-						}
-					}
-		Then Execute.			
+	  Request Body:  
+
+	{
+		"query" : {
+			"match" : {
+				"message" : "bonsai tree"
+			}
+		}
+	}
+					
+					
+	Then Execute.			
 					
 	* Match a document to the registered percolator queries:	
 	  Choose GET, enter this address "localhost:9200/my-index/my-type/_percolate"
-	  Request Body:     {
-							"doc" : {
-								"message" : "A new bonsai tree in the office"
-							}
-						}
+	  Request Body:    
+
+
+	 {
+		"doc" : {
+			"message" : "A new bonsai tree in the office"
+		}
+	}
 		
-		Then Execute.
+	Then Execute.
 						
-	*The given request will be like this :  {
-												"took" : 19,
-												"_shards" : {
-													"total" : 5,
-													"successful" : 5,
-													"failed" : 0
-												},
-												"total" : 1,
-												"matches" : [ 
-													{
-													  "_index" : "my-index",
-													  "_id" : "1"
-													}
-												]
-											}					
+	*The given request will be like this :  
+	
+	{
+		"took" : 19,
+			"_shards" : {
+				"total" : 5,
+				"successful" : 5,
+				"failed" : 0
+			},
+		"total" : 1,
+		"matches" : [ 
+			{
+				"_index" : "my-index",
+				  "_id" : "1"
+			}
+		]
+	}			
+											
 						
 	-- It means, there is a one matching in the query. 
 
@@ -76,9 +91,9 @@ This allows you to see how each match is highlighting the document being percola
 	*I will use same tool which is Fiddler Web Debugger. Follow steps at the below: 
 	
 	
-***ADDING A QUERY TO THE PERCOLATOR:***
+**ADDING A QUERY TO THE PERCOLATOR:**
 
-  **QUERY 1:**
+  *QUERY 1:*
 
 	PUT - localhost:9200/my-index/.percolator/1
 	
@@ -91,7 +106,7 @@ This allows you to see how each match is highlighting the document being percola
 	}
 
    
-   **QUERY 2:**
+   *QUERY 2:*
    
 	PUT - localhost:9200/my-index/.percolator/2
 	
@@ -105,7 +120,7 @@ This allows you to see how each match is highlighting the document being percola
 
 --------------------------------------------------------------------
 	
-***PERCOLATE REQUEST:***	
+**PERCOLATE REQUEST:**	
 
 	GET - localhost:9200/my-index/my-type/_percolate
 	
@@ -123,7 +138,7 @@ This allows you to see how each match is highlighting the document being percola
 	
 --------------------------------------------------------------------
 
-***PERCOLATE RESPONSE:***
+**PERCOLATE RESPONSE:**
 
 	{
 	   "took": 18,
