@@ -17,11 +17,11 @@ Or, you can use console but if you are using Windows, you need to download [cURL
 - Third, we will apply one example from the official web page. I will apply according to the Fiddler Web Debugger.
 					
 	* Register a query in the percolator: 
-	  Click Composer on Fiddler.
-	  Choose PUT, enter this address "localhost:9200/my-index/.percolator/1"
-	  Request Body:  
+	* Click Composer on Fiddler.
+	* Choose PUT, enter this address "localhost:9200/my-index/.percolator/1"
+	
+	*Request Body:*  
 	 
-    PUT - localhost:9200/my-index/.percolator/1
 	
 	{
 		"query" : {
