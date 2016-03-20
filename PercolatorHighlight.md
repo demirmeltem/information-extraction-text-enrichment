@@ -76,7 +76,7 @@ This allows you to see how each match is highlighting the document being percola
 	*I will use same tool which is Fiddler Web Debugger. Follow steps at the below: 
 	
 	
-ADDING A QUERY TO THE PERCOLATOR:
+###ADDING A QUERY TO THE PERCOLATOR:
 
 	PUT - localhost:9200/my-index/.percolator/1
 	
@@ -102,7 +102,7 @@ ADDING A QUERY TO THE PERCOLATOR:
 
 --------------------------------------------------------------------
 	
-PERCOLATE REQUEST:	
+###PERCOLATE REQUEST:	
 
 	GET - localhost:9200/my-index/my-type/_percolate
 	
@@ -120,7 +120,7 @@ PERCOLATE REQUEST:
 	
 --------------------------------------------------------------------
 
-PERCOLATE RESPONSE:
+###PERCOLATE RESPONSE:
 
 	{
 	   "took": 18,
