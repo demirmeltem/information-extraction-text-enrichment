@@ -14,7 +14,7 @@ The aim of the project is to extract structured information from unstructured te
 
 * Download Data from DbPedia :white_check_mark:
 * Normalize Data :white_check_mark:
-* Practice on Tool 
-* Input Training Data / Training Process
-* Input Testing Data /  Testing Data
+* Practice on Tool :white_check_mark:
+* Input Training Data / Training Process :white_check_mark:
+* Input Testing Data /  Testing Data :white_check_mark:
 
